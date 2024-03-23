@@ -7,11 +7,31 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<form action="" method="post" autocomplete="on">
-<label for="Nome">Nome</label>
-<input type="text" name="Nome" id="Nome" required autocomplete="name" placeholder="Qual o seu nome?" minlength="10">
+    <h1>Cadastre-se em nossa plataforma</h1>
 
-</form>
+    <main>
+        <p>Preencha os campos abaixo com as informações necessárias.    </p>
+        
+    </main>
+    <form action="" method="post" autocomplete="on">
+<div>
+    <label for="Nome">Nome</label>
+    <input type="text" name="Nome" id="Nome" required autocomplete="name" placeholder="Qual o seu nome?" minlength="10">
+</div>
+<div>
+    <label for="Sobrenome">Sobrenome</label>
+    <input type="text" name="Sobrenome" id="Sobrenome" required autocomplete="additional-name" placeholder="Qual o seu sobrenome" minlength="5">
+</div>
+<div>
+    <label for="Email">Email</label>
+    <input type="email" name="Email" id="Email" required autocomplete="email" placeholder="Digite o seu endereço de email">
+</div>
+<div>
+    <label for="Senha">Senha</label>
+    <input type="password" name="Senha" id="Senha" required autocomplete="new-password" minlength="8" placeholder="Digite sua Senha">
+    </div>
+<input type="reset" value="Limpar">
+<input type="submit" value="Entrar"></form>
     
 
 </body>
